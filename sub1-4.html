@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>혼밥레시피-김치볶음밥</title>
+
+  <style>
+body{margin: 0px; font-family: 'NanumSquare'}
+.container{
+  display: grid;
+  grid-template-columns:231px 336px 1104px 231px;
+  grid-template-rows: :auto auto auto;
+  height: 100%;
+  grid-template-areas:
+  "header header header header"
+  ". side main ."
+  "footer footer footer footer"}
+
+.header{
+grid-area: header;
+width: 1903px;
+height: 90px;
+background-image: url('bgimg.jpg');
+}
+.logo{
+margin-left: 272px;
+position: relative;
+top:5px;
+max-width:103px;
+max-height:90px;
+float: left;}
+.menu{
+margin-left: 32px;
+float: left;
+width: 114px;
+height: 90px;
+line-height: 90px;
+text-align: center;
+color: white;
+font-size: 20pt;}
+a {text-decoration:none ;  color:inherit;}
+a:hover {color: black; background-color: white;}
+
+
+.side{
+grid-area: side;
+background-color: #dbdbdb;
+height: 3040px;}
+.sidetop{width: 336px; height: 190px; position: absolute; top:90px; background-color:#dbdbdb; color: black; }
+.sidetitle{margin-left: 32px; margin-top: 107px;}
+.sidelist{ margin-top: 204px;}
+.sidelist_1{line-height: 43px; width: 336px; height: 42px;color:white; background-color:#1b1b1b;}
+h3{ margin-left: 32px;}
+
+
+.main{
+grid-area: main;
+height: 3040px;}
+.maincontents{margin-left: 32px; margin-top: 98px;}
+.maintitle{font-size: 35.5px;}
+#line1{margin-top: 15px; width:1104px; height:2px; background-color: black;}
+.maintop{ width:1104px; height:159px;}
+#line2{width:1104px; height:2px; background-color: black;}
+.maintop_t{line-height:50px; margin-left: 32px; font-size: 18px; float: left;}
+.maintop_i{margin-left: 98px; width:1006px; height:120px; background-image: url('maintop1-4.png')}
+.maintop_t1{font-size: 14px; margin-left: 110px; line-height:43px;}
+
+.maintitle2{width:1006px; height:82px;}
+.maintitle2_t{margin-left: 32px; line-height:78px; font-size: 18px;}
+.contents{width:1104px; height:2688px; background-image: url('contents1-4.png')}
+
+
+
+
+.footer{
+grid-area: footer;
+background-image: url('bgimg.jpg');
+width: 100%;
+height: 90px;}
+
+
+  </style>
+
+  </head>
+
+  <body>
+<div class="container">
+   <div class="header"> <!--상단 메뉴-->
+     <a href="index.html"><img class="logo" src="./logo.png"></a>
+       <div>
+          <div class="menu">
+            <a href="sub1.html">밥</a>
+          </div>
+          <div class="menu">
+            <a href="sub2.html">국</a>
+          </div>
+          <div class="menu">
+            <a href="sub3.html">반찬</a>
+          </div>
+          <div class="menu">
+            <a href="sub4.html">간편</a>
+          </div>
+       </div>
+
+   </div>
+
+
+
+   <div class="side"><!--좌측 메뉴-->
+     <div class="sidetop">
+        <div class="sidetitle">
+           <h1>밥</h1>
+        </div>
+     </div>
+          <div class="sidelist">
+           <H3><a href="sub1-1.html">김치볶음밥</a></H3>
+           <H3><a href="sub1-2.html">간장계란밥</a></H3>
+           <H3><a href="sub1-3.html">참치마요</a></H3>
+           <div class="sidelist_1"><H3><a href="sub1-4.html">비빔밥</a></H3></div>
+           <H3><a href="sub1-5.html">오므라이스</a></H3>
+          </div>
+
+   </div>
+
+
+
+   <div class="main"><!--메인 컨텐츠-->
+     <div class="maincontents">
+       <a class="maintitle">비빔밥</a>
+     </div>
+     <div id="line1"></div>
+     <div class="maintop">
+       <a class="maintop_t">재료</a>
+       <div class="maintop_i"></div>
+       <div class="maintop_t1">
+         밥1공기밥&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         김가루&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         참기름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         달걀1개&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         깨소금&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         시금치&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         콩나물&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         당근
+</div>
+     </div>
+     <div id="line2"></div>
+     <div class="maintitle2"><a class="maintitle2_t">요리순서</a></div>
+     <div class="contents"></div>
+   </div>
+
+
+
+   <div class="footer"></div><!--풋터-->
+</div>
+  </body>
+
+</html>
